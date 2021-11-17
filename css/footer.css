@@ -1,0 +1,277 @@
+hr {
+    margin-top: 80px;
+    clear: both;
+}
+
+footer {
+    clear: both;
+}
+
+.community {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    height: 100%;
+}
+
+.community-text {
+    margin-top: 80px;
+}
+
+.community-text p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.register {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.register a {
+    color: white;
+    background: rgb(226, 56, 85);
+    padding: 10px 20px;
+}
+
+.policy {
+    border-top: 1px solid red;
+    width: 100%;
+    padding: 80px 50px;
+    display: flex;
+}
+
+.contact-info {
+    width: 19%;
+    margin-right: 50px;
+}
+
+.contact-info ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.contact-info li {
+    line-height: 35px;
+}
+
+.engeneering {
+    width: 19%;
+    margin-right: 50px;
+}
+
+.engeneering ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.engeneering li {
+    line-height: 25px;
+}
+
+.graphic {
+    width: 19%;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.graphic ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.graphic li {
+    line-height: 25px;
+}
+
+.development {
+    width: 19%;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.development ul {
+    margin-top: 30px;
+    list-style: none;
+}
+
+.development li {
+    line-height: 25px;
+}
+
+.newsletter {
+    width: 19%;
+}
+
+.newsletter form {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.newsletter input {
+    padding: 15px 30px;
+    background: rgb(238, 230, 230);
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="submit"] {
+    width: 60%;
+    color: white;
+    background: rgb(226, 56, 85);
+}
+
+.footer {
+    width: 100%;
+    background: rgb(238, 230, 230);
+    display: flex;
+    padding: 20px 10px;
+}
+
+.first-footer span {
+    color: royalblue;
+}
+
+.second-footer {
+    margin-left: 50%;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .policy {
+        padding: 80px 30px;
+    }
+    .contact-info {
+        width: 30%;
+        margin-right: 30px;
+    }
+    .contact-info li {
+        line-height: 20px;
+    }
+    .engeneering {
+        width: 30%;
+        margin-right: 30px;
+    }
+    .engeneering li {
+        line-height: 20px;
+    }
+    .development {
+        width: 30%;
+        margin-right: 30px;
+    }
+    .development li {
+        line-height: 20px;
+    }
+    .graphic {
+        width: 30%;
+        margin-right: 30px;
+    }
+    .graphic li {
+        line-height: 20px;
+    }
+    .newsletter {
+        width: 50%;
+    }
+    .second-footer {
+        margin-left: 20%;
+    }
+    .newsletter input {
+        padding: 10px 20px;
+        width: 100%;
+    }
+    .newsletter input[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .policy {
+        padding: 80px 10px;
+        display: block;
+    }
+    .contact-info {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .engeneering {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .graphic {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .development {
+        margin-right: 0px;
+        width: 100%;
+    }
+    .newsletter {
+        width: 30%;
+    }
+    .contact-info {
+        margin-left: 30px;
+    }
+    .contact-info ul {
+        margin-top: 10px;
+    }
+    .contact-info li {
+        line-height: 20px;
+    }
+    .engeneering {
+        margin-left: 30px;
+    }
+    .engeneering h4 {
+        margin-top: 30px;
+    }
+    .engeneering ul {
+        margin-top: 10px;
+    }
+    .engeneering li {
+        line-height: 20px;
+    }
+    .graphic {
+        margin-left: 30px;
+    }
+    .graphic h4 {
+        margin-top: 30px;
+    }
+    .graphic ul {
+        margin-top: 10px;
+    }
+    .graphic li {
+        line-height: 20px;
+    }
+    .development h4 {
+        margin-top: 30px;
+    }
+    .development {
+        margin-left: 30px;
+    }
+    .development ul {
+        margin-top: 10px;
+    }
+    .development li {
+        line-height: 20px;
+    }
+    .newsletter {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .newsletter form {
+        margin-top: 20px;
+    }
+    .newsletter input {
+        width: 80%;
+    }
+    .newsletter input[type="submit"] {
+        width: 80%;
+    }
+    .footer {
+        display: block;
+    }
+    .second-footer {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

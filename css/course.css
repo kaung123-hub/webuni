@@ -1,0 +1,260 @@
+.content {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.course-link {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.course-link ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.course-link li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.course-card {
+    margin: 80px 20px 0px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: 23%;
+    float: left;
+    background: rgb(238, 230, 230);
+    margin-right: 20px;
+    margin-bottom: 80px;
+}
+
+.card-header {
+    height: 300px;
+    width: 100%;
+    position: relative;
+}
+
+.img-box img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 2;
+}
+
+.price p {
+    position: absolute;
+    z-index: 3;
+    background: rgb(226, 56, 85);
+    top: 5%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+    color: white;
+    padding: 10px 20px;
+}
+
+.card-body {
+    margin: 40px 0px 0px 30px;
+}
+
+.card-body p {
+    margin-top: 30px;
+}
+
+.last {
+    margin-top: 30px;
+    color: rgb(226, 56, 85);
+    margin-bottom: 30px;
+}
+
+.card hr {
+    margin-top: 30px;
+}
+
+.card-footer {
+    margin: 10px 0px 10px 30px;
+}
+
+.footer-box {
+    display: flex;
+}
+
+.image-box {
+    margin-right: 15px;
+}
+
+.image-box img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.label p {
+    margin-top: 8px;
+}
+
+.label span {
+    color: rgb(226, 56, 85);
+}
+
+.detail {
+    display: flex;
+    clear: both;
+    margin-bottom: 80px;
+    background: rgb(238, 230, 230);
+}
+
+.detail-img-box {
+    width: 50%;
+    height: 400px;
+}
+
+.detail-img-box img {
+    width: 100%;
+    height: 400px;
+}
+
+.detail-content-box {
+    width: 50%;
+    height: 400px;
+}
+
+.detail-content {
+    margin: 50px 0px 0px 50px;
+}
+
+.detail-title {
+    width: 27%;
+    font-weight: normal;
+    color: white;
+    background: rgb(226, 56, 85);
+    padding: 10px 20px;
+}
+
+.detail-content h2 {
+    margin-top: 30px;
+}
+
+.detail-content p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.detail-content span {
+    color: rgb(226, 56, 85);
+    margin-bottom: 30px;
+}
+
+.detail-footer-box {
+    display: flex;
+}
+
+.detail-image-box {
+    margin-right: 15px;
+}
+
+.detail-image-box img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.detail-label p {
+    margin-top: 8px;
+}
+
+.detail-label span {
+    color: rgb(226, 56, 85);
+}
+
+.detail-footer {
+    margin-top: 30px;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .content {
+        margin-top: 250px;
+    }
+    .course-card {
+        margin: 50px 20px 0px 20px;
+    }
+    .card {
+        width: 29%;
+        margin-bottom: 60px;
+    }
+    .card-header {
+        height: 200px;
+    }
+    .img-box img {
+        height: 200px;
+    }
+    .price p {
+        padding: 5px 10px;
+    }
+    .card-body {
+        margin: 40px 0px 0px 10px;
+    }
+    .card-body p {
+        margin-top: 20px;
+    }
+    .card-footer {
+        margin: 10px 0px 10px 10px;
+    }
+    .image-box {
+        margin-right: 10px;
+    }
+    .label p {
+        margin-top: 6px;
+        font-size: 12px;
+    }
+    .detail-title {
+        width: 55%;
+    }
+    .detail-content {
+        margin: 10px 0px 0px 20px;
+    }
+    .detail-content h2 {
+        font-size: 23px;
+    }
+    .detail-content p {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    .content {
+        margin-top: 80px;
+    }
+    .course-card {
+        margin: 50px 20px 0px 20px;
+    }
+    .card {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .detail {
+        display: block;
+    }
+    .detail-img-box {
+        width: 100%;
+        height: 300px;
+    }
+    .detail-img-box img {
+        width: 100%;
+        height: 300px;
+    }
+    .detail-content-box {
+        width: 100%;
+    }
+    .detail-content {
+        margin: 30px 0px 0px 30px;
+    }
+    .detail-title {
+        width: 40%;
+    }
+}

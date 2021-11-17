@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 30%;
+    color: black;
+}
+
+.nav-list {
+    width: 100%;
+    margin-left: 10%;
+}
+
+.nav-list ul {
+    margin-top: 10px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+}
+
+.nav-list a {
+    color: black;
+    font-size: 14px;
+}
+
+.nav-list li:hover {
+    border: 1px solid black;
+}
+
+
+/* .sub li {
+    display: none;
+}
+
+.nav-list>ul>li:hover .sub>li {
+    display: block;
+} */
+
+.login {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(226, 56, 85);
+    padding: 30px;
+}
+
+.l-form {
+    background: white;
+    padding: 50px 30px;
+    margin: auto;
+}
+
+.login input {
+    background: rgb(238, 230, 230);
+    border-style: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type=checkbox] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.login input[type=submit] {
+    width: 30%;
+    background: rgb(226, 56, 85);
+    color: white;
+    margin: 20px 0px 20px 35%;
+}
+
+.login a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.error>input {
+    border: 2px solid red;
+    margin-bottom: 0px;
+}
+
+.error p {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.success>input {
+    border: 2px solid green;
+}
+
+.success p {
+    display: none;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .login {
+        width: 70%;
+    }
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-list {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .nav-list li {
+        float: none;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .login {
+        width: 80%;
+    }
+    .login {
+        width: 80%;
+    }
+    .login input[type="submit"] {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .l-form {
+        padding: 30px 20px;
+    }
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        margin: auto;
+        color: black;
+    }
+    .nav-list {
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+    .nav-list ul {
+        height: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nav-list li {
+        float: none;
+        display: block;
+        margin: auto;
+        background: rgb(226, 56, 85);
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-list a {
+        color: white;
+    }
+}

@@ -1,0 +1,158 @@
+.content {
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+}
+
+.contact-box {
+    width: 60%;
+    background: rgb(226, 56, 85);
+    padding: 30px;
+    color: white;
+}
+
+.contact-box p {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.contact-box form {
+    margin-top: 30px;
+    background: white;
+    padding: 30px 20px;
+}
+
+.contact-box input {
+    width: 100%;
+    padding: 10px 15px;
+    background: rgb(238, 230, 230);
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+.contact-box textarea {
+    width: 100%;
+    padding: 10px 15px;
+    background: rgb(238, 230, 230);
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.contact-box input[type=submit] {
+    width: 30%;
+    color: white;
+    background: rgb(226, 56, 85);
+    padding: 10px 15px;
+}
+
+.label {
+    width: 40%;
+    padding: 40px 30px 0px 30px;
+}
+
+.label h1 {
+    font-weight: normal;
+}
+
+.label p {
+    margin-top: 30px;
+    line-height: 20px;
+    color: rgb(139, 135, 135);
+    margin-bottom: 80px;
+}
+
+.label h4 {
+    font-weight: normal;
+    color: rgb(226, 56, 85);
+    margin-bottom: 10px;
+}
+
+.label span {
+    font-size: 30px;
+    border-bottom: 1px solid rgb(226, 56, 85);
+}
+
+.label ul {
+    margin-top: 80px;
+    margin-left: 50px;
+    line-height: 20px;
+    display: block;
+}
+
+.label li {
+    font-size: 20px;
+    color: rgb(139, 135, 135);
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    margin-left: 50px;
+}
+
+.icons a {
+    margin-right: 20px;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.google-map {
+    margin-top: 80px;
+}
+
+.map {
+    height: 500px;
+    width: 100%;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .contact-box input {
+        margin-bottom: 10px;
+    }
+    .contact-box input[type=submit] {
+        width: 60%;
+    }
+    .label span {
+        font-size: 25px;
+    }
+    .label ul {
+        margin-left: 30px;
+    }
+    .icons {
+        margin-left: 20px;
+    }
+    .label li {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .content {
+        margin-top: 100px;
+    }
+    .contact {
+        display: block;
+    }
+    .contact-box {
+        width: 100%;
+    }
+    .contact-box input {
+        margin-bottom: 10px;
+    }
+    .contact-box input[type=submit] {
+        width: 100%;
+    }
+    .label {
+        width: 100%;
+        padding: 0;
+        margin-top: 50px;
+    }
+}

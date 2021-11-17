@@ -1,0 +1,101 @@
+header {
+    width: 100%;
+    height: 350px;
+    /* background: url(../image/resorts.png); */
+    /* background: black; */
+    background: url(http://www.hdwallpapersbook.com/wp-content/uploads/2017/05/Old-Ancient-Library-Books-Ladders-Lamps.jpg);
+    margin-bottom: 100px;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.current {
+    margin-top: 80px;
+    color: white;
+}
+
+.current span {
+    color: rgb(226, 56, 85);
+}
+
+.search-course {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.search-course-title {
+    width: 30%;
+    background: rgb(226, 56, 85);
+    color: white;
+    margin: auto;
+    padding: 10px;
+}
+
+.search-course-box {
+    color: white;
+}
+
+.search-course-box form {
+    background: rgb(226, 56, 85);
+    padding: 50px 10px;
+}
+
+.search-course-box input[type="text"] {
+    padding: 10px 70px;
+    margin-right: 10px;
+    border-style: none;
+    background: rgb(238, 230, 230);
+}
+
+.search-course-box input[type="submit"] {
+    padding: 10px 40px;
+    color: white;
+    background: black;
+    border-style: none;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .logo {
+        text-align: center;
+    }
+    header {
+        height: 500px;
+    }
+    .search-course-title {
+        width: 50%;
+    }
+    .search-course-box input[type="text"] {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        background: none;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .current {
+        margin-top: 40px;
+    }
+    .current h3 {
+        color: black;
+    }
+    .search-course-title {
+        width: 100%;
+    }
+    .search-course-box input[type="text"] {
+        padding: 10px 30px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

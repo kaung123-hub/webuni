@@ -1,0 +1,97 @@
+.register {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(226, 56, 85);
+    padding: 30px;
+}
+
+form {
+    background: white;
+    padding: 50px 30px;
+    margin: auto;
+}
+
+.register input {
+    background: rgb(238, 230, 230);
+    border-style: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register input[type=checkbox] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.register input[type=radio] {
+    width: auto;
+    margin-top: 20px;
+}
+
+.register input[type=submit] {
+    width: 30%;
+    background: rgb(226, 56, 85);
+    color: white;
+    margin: 20px 0px 20px 35%;
+}
+
+.register input[type=file] {
+    margin-top: 10px;
+}
+
+.register textarea {
+    width: 100%;
+    background: rgb(238, 230, 230);
+    border-style: none;
+    padding: 10px 20px;
+}
+
+.register a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.error>input {
+    border: 2px solid red;
+    margin-bottom: 0;
+}
+
+.error p {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.success p {
+    display: none;
+}
+
+.success>input {
+    border: 2px solid green;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .register {
+        width: 7 30%;
+    }
+}
+
+@media (max-width: 575px) {
+    .register {
+        width: 80%;
+    }
+    .register input[type="submit"] {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    form {
+        padding: 30px 20px;
+    }
+}

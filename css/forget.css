@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 30%;
+    color: black;
+}
+
+.nav-list {
+    width: 60%;
+    margin-left: 10%;
+}
+
+.nav-list ul {
+    margin-top: 10px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+}
+
+.nav-list a {
+    color: black;
+    font-size: 14px;
+}
+
+.nav-list li:hover {
+    border: 1px solid black;
+}
+
+
+/* .sub li {
+    display: none;
+}
+
+.nav-list>ul>li:hover .sub>li {
+    display: block;
+} */
+
+.nav-link {
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-link a {
+    color: white;
+    padding: 10px 20px;
+    background: rgb(226, 56, 85);
+}
+
+.forget {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(226, 56, 85);
+    padding: 30px;
+}
+
+.f-form {
+    background: white;
+    padding: 50px 30px;
+    margin: auto;
+}
+
+.forget input {
+    background: rgb(238, 230, 230);
+    border-style: none;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.forget input[type=submit] {
+    width: 30%;
+    background: rgb(226, 56, 85);
+    padding: 10px;
+    color: white;
+    margin: 20px 0px 20px 35%;
+}
+
+.forget a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.error>input {
+    border: 2px solid red;
+    margin-bottom: 0px;
+}
+
+.error p {
+    color: red;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.success>input {
+    border: 2px solid green;
+}
+
+.success p {
+    display: none;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-list {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .nav-list li {
+        float: none;
+        margin-right: 30px;
+    }
+    .nav-link {
+        line-height: 30px;
+        margin: auto;
+    }
+    .forget {
+        width: 70%;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+        color: black;
+    }
+    .nav-list {
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+    .nav-list ul {
+        height: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nav-list li {
+        float: none;
+        display: block;
+        margin: auto;
+        background: rgb(226, 56, 85);
+        color: black;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-list a {
+        color: white;
+    }
+    .nav-link {
+        width: 100%;
+    }
+    .forget {
+        width: 80%;
+    }
+    .forget input[type="submit"] {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .f-form {
+        padding: 30px 20px;
+    }
+}

@@ -1,0 +1,29 @@
+.errordis {
+    background: red;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.errordis strong {
+    color: white;
+}
+
+.errordis button {
+    border-style: none;
+    background: none;
+    float: right;
+    color: white;
+}
+
+
+/* @media (min-width: 576px) and (max-width: 991px) {
+    .errordis button {
+        margin-left: 67%;
+    }
+}
+
+@media (max-width: 575px) {
+    .errordis button {
+        margin-left: 34%;
+    }
+} */

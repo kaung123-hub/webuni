@@ -1,0 +1,84 @@
+.member-detail {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: rgb(226, 56, 85);
+    padding: 30px;
+}
+
+form {
+    background: white;
+    padding: 50px 30px;
+    margin: auto;
+}
+
+.profile {
+    width: 100%;
+    height: 300px;
+}
+
+.nrc {
+    width: 250px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.member-detail p {
+    margin-top: 20px;
+}
+
+form>p>span {
+    margin-right: 20px;
+    color: black;
+}
+
+form>p {
+    color: red;
+}
+
+form>p>label {
+    color: black;
+}
+
+.error>input {
+    border: 2px solid red;
+    margin-bottom: 0;
+}
+
+.error p {
+    color: red;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.success p {
+    display: none;
+}
+
+.success>input {
+    border: 2px solid green;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .member-detail {
+        width: 70%;
+    }
+}
+
+@media (max-width: 575px) {
+    .member-detail {
+        width: 80%;
+    }
+    .member-detail input[type="submit"] {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    form {
+        padding: 30px 20px;
+    }
+}

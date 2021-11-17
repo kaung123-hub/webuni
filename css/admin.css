@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    background: rgb(226, 56, 85);
+}
+
+.content {
+    flex: 1;
+}
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    padding: 20px;
+    /* background: rgb(226, 56, 85); */
+}
+
+.logo {
+    width: 100%;
+    color: white;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+}
+
+.main ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+.main ul>li {
+    width: 100%;
+    padding: 20px;
+}
+
+.main ul>li>a {
+    color: white;
+}
+
+.main li:hover {
+    border-left: 2px solid white;
+    opacity: 0.8;
+}
+
+.main button {
+    border-style: none;
+    background: none;
+    color: white;
+}
+
+.content {
+    background: white;
+}
+
+.navi {
+    box-shadow: 3px 0px 10px black;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+}
+
+.dashb {
+    width: 80%;
+}
+
+.dashb a {
+    padding: 5px 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px rgba(138, 129, 129, 0.8);
+    margin-right: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.dashb span {
+    font-size: 1.5em;
+}
+
+.search {
+    flex: 1;
+}
+
+.search form {
+    float: right;
+}
+
+.search input {
+    padding: 8px;
+    border-style: none;
+    background: rgb(240, 225, 225);
+}
+
+.search input[type='submit'] {
+    background: rgb(226, 56, 85);
+    color: white;
+}
+
+.dropdown {
+    flex: 1;
+}
+
+.firstpage {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cat-info,
+.course-info,
+.post-info,
+.teacher-info,
+.member-info {
+    width: 40%;
+    margin-left: 20px;
+}
+
+.firstpage p {
+    width: 70%;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.secondpage {
+    display: flex;
+    margin-top: 50px;
+}
+
+.pteacher-info,
+.pmember-info {
+    width: 26%;
+    margin-left: 20px;
+}
+
+.secondpage p {
+    width: 60%;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border: 5px solid red;
+    text-align: center;
+    font-size: 50px;
+}
+
+.course {
+    display: none;
+    margin-top: 50px;
+}
+
+.course-category {
+    display: none;
+    margin-top: 50px;
+}
+
+.post {
+    display: none;
+    margin-top: 50px;
+}
+
+.teacher {
+    display: none;
+    margin-top: 50px;
+}
+
+.card-body span {
+    color: rgb(226, 56, 85);
+    font-weight: normal;
+}
+
+.member {
+    display: none;
+    margin-top: 50px;
+}
+
+.card-group {
+    width: 100%;
+    padding-left: 30px;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    background: rgb(238, 230, 230);
+    text-align: left;
+}
+
+.card-header img {
+    width: 100%;
+    height: 150px;
+}
+
+.card-body {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-body p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.card-body h4 {
+    color: rgb(226, 56, 85);
+    margin-top: 10px;
+}
+
+.card-body a {
+    font-size: 14px;
+    color: blueviolet;
+}
+
+.card-body span {
+    color: rgb(226, 56, 85);
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.card-footer {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(226, 56, 85);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.create {
+    width: 100%;
+}
+
+.create a {
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: rgb(226, 56, 85);
+    float: right;
+    clear: both;
+    top: 85%;
+    right: 7%;
+    position: fixed;
+}
+
+.create i {
+    font-size: 30px;
+    color: white;
+}
+
+.card-footer a {
+    width: 50%;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.approve {
+    background: green;
+}
+
+.ban {
+    background: red;
+}
+
+.edit {
+    background: green;
+}
+
+.delete {
+    background: red;
+}
+
+.view {
+    background: rgb(236, 236, 69);
+}
+
+.dropbtn {
+    background-color: rgb(226, 56, 85);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgb(235, 83, 109);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: 3px;
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 56, 85);
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    background: rgb(235, 83, 109);
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: rgb(255, 244, 244);
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .card {
+        width: 44%;
+    }
+    .sidebar {
+        width: 28%;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .logo h1 {
+        font-size: 1.7em;
+    }
+    .main ul>li {
+        padding: 15px;
+    }
+    .dashb {
+        width: 80%;
+    }
+    .search input {
+        padding: 5px;
+    }
+    .search input[type="text"] {
+        width: 120px;
+    }
+    .dashb span {
+        font-size: 1.3em;
+    }
+    .card-body {
+        margin-left: 10px;
+    }
+    .card-footer {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .sidebar {
+        width: 30%;
+        padding: 10px;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .logo h1 {
+        font-size: 1.1em;
+    }
+    .main ul>li {
+        padding: 10px;
+    }
+    .dashb {
+        width: 70%;
+    }
+    .dashb a {
+        padding: 1px 5px;
+        margin-right: 5px;
+    }
+    .dashb span {
+        font-size: 1em;
+    }
+    .search {
+        display: none;
+    }
+    .content h1 {
+        font-size: 1.1em;
+    }
+    .card {
+        margin-bottom: 50px;
+    }
+    .card-group {
+        padding: 15px;
+    }
+}

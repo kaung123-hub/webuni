@@ -1,0 +1,463 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://cdn.wallpapersafari.com/77/82/C4nLhI.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+}
+
+.h-box {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 20% auto;
+}
+
+.text h1 {
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.signup {
+    margin-top: 100px;
+}
+
+.signup input {
+    padding: 10px 40px;
+    margin-right: 15px;
+    background: rgb(238, 230, 230);
+    border-style: none;
+}
+
+.signup input[type=submit] {
+    background: rgb(226, 56, 85);
+    color: white;
+}
+
+.course-categories {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.course-text {
+    margin-top: 80px;
+}
+
+.course-text h1 {
+    font-weight: bold;
+}
+
+.course-text p {
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.card-group {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 80px;
+    background: rgb(238, 230, 230);
+    text-align: left;
+}
+
+.card-header img {
+    width: 100%;
+    height: 150px;
+}
+
+.card-body {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-body h3 {
+    text-transform: uppercase;
+}
+
+.card-body p {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.card-body a {
+    color: blueviolet;
+}
+
+.card-footer {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: rgb(226, 56, 85);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card:hover {
+    background: rgb(226, 56, 85);
+    color: white;
+}
+
+.card:hover .card-body a {
+    color: white;
+}
+
+.card:hover .card-footer {
+    color: white;
+}
+
+.search {
+    width: 80%;
+    background: rgb(226, 56, 85);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-left: 10%;
+    clear: both;
+}
+
+.search h1 {
+    font-weight: bold;
+}
+
+.search form {
+    width: 80%;
+    padding: 30px;
+    background: white;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.search input {
+    width: 35%;
+    padding: 10px 40px;
+    margin-right: 15px;
+    border-style: none;
+    background: rgb(238, 230, 230);
+}
+
+.search input[type=submit] {
+    width: 20%;
+    padding: 10px 10px;
+    background: rgb(226, 56, 85);
+    color: white;
+}
+
+.feature-course {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.feature-title {
+    margin-top: 40px;
+}
+
+.feature-title p {
+    margin-top: 20px;
+}
+
+.feature-title ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.feature-title li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.feature-title button {
+    background: none;
+    border: none;
+}
+
+.feature-title button:hover {
+    color: rgb(226, 56, 85);
+}
+
+
+/* .feature-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.feature-title a:hover {
+    color: rgb(226, 56, 85);
+} */
+
+.feature-box {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.feature-box hr {
+    margin-top: 30px;
+}
+
+.feature-card {
+    width: 23%;
+    margin-right: 20px;
+    background: rgb(238, 230, 230);
+    float: left;
+    margin-bottom: 20px;
+}
+
+.feature-card-header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.feature-img img {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+.feature-img-label h4 {
+    padding: 10px 20px;
+    background: rgb(226, 56, 85);
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+    z-index: 3;
+}
+
+.feature-card-body {
+    margin-top: 40px;
+    padding-left: 30px;
+}
+
+.first {
+    margin-top: 15px;
+}
+
+.feature-card-body p {
+    margin-bottom: 20px;
+}
+
+.feature-card-body a {
+    color: blueviolet;
+}
+
+
+/* .feature-card-body p:last-child {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        color: rgb(226, 56, 85);
+    } */
+
+.feature-card-footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+.footer-img {
+    margin: 0 15px;
+}
+
+.footer-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.feature-card-footer h5 {
+    margin: 10px;
+}
+
+.feature-card-footer h5>span {
+    color: rgb(226, 56, 85);
+}
+
+.teacher-signup {
+    display: flex;
+    width: 100%;
+}
+
+.signup-box {
+    width: 50%;
+    margin-top: 80px;
+    background: rgb(226, 56, 85);
+}
+
+.teacher-signup-box {
+    width: 80%;
+    margin: auto;
+    margin-top: 13%;
+    color: white;
+    margin-bottom: 13%;
+}
+
+.teacher-text h1 {
+    font-size: 50px;
+}
+
+.teacher-text p {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.teacher-form {
+    margin-top: 40px;
+    background: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.teacher-form input {
+    width: 100%;
+    padding: 10px;
+    background: rgb(238, 230, 230);
+    margin-bottom: 20px;
+    border-style: none;
+}
+
+.teacher-form input[type=submit] {
+    background: rgb(226, 56, 85);
+    width: 30%;
+    color: white;
+}
+
+.teacher-imgbox {
+    flex: 1;
+    margin-top: 80px;
+}
+
+.teacher-imgbox img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    header {
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .h-box {
+        margin: 10% auto;
+    }
+    .signup {
+        margin-top: 100px;
+    }
+    .signup input {
+        padding: 8px 8px;
+        margin: 0;
+    }
+    .card {
+        width: 44%;
+    }
+    .search input {
+        width: 100%;
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    .search input[type=submit] {
+        width: 50%;
+    }
+    .feature-title li {
+        margin-right: 20px;
+    }
+    .feature-card {
+        width: 29%;
+    }
+    .teacher-text h1 {
+        font-size: 40px;
+    }
+    .teacher-text p {
+        line-height: 20px;
+    }
+    .teacher-form input {
+        padding: 10px 15px;
+    }
+    .teacher-form input[type=submit] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    header {
+        height: 100%;
+        background: none;
+    }
+    .h-box {
+        margin: 20px auto;
+    }
+    .text h1 {
+        font-size: 40px;
+        color: black;
+    }
+    .text p {
+        color: black;
+    }
+    .signup {
+        margin-top: 60px;
+    }
+    .signup input {
+        padding: 8px 20px;
+        margin-right: 0px;
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .course-text {
+        margin-top: 0px;
+    }
+    .card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .search form {
+        width: 100%;
+        padding: 15px;
+        margin-left: 0;
+    }
+    .search input {
+        width: 100%;
+        padding: 10px 8px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .search input[type=submit] {
+        width: 100%;
+    }
+    .feature-title li {
+        margin-right: 20px;
+    }
+    .feature-card {
+        width: 100%;
+    }
+    .signup-box {
+        width: 100%;
+        margin-left: 20px;
+    }
+    .teacher-text h1 {
+        font-size: 40px;
+    }
+    .teacher-form input {
+        padding: 10px;
+    }
+}

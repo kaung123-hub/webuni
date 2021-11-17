@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 10%;
+    color: white;
+}
+
+.nav-list {
+    width: 55%;
+    margin-left: 22%;
+}
+
+.nav-list ul {
+    margin-top: 10px;
+    height: 40px;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-list li {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    display: inline;
+    float: left;
+}
+
+.nav-list a {
+    color: white;
+    font-size: 14px;
+}
+
+.nav-list li:hover {
+    border: 1px solid white;
+}
+
+
+/* .sub li {
+    display: none;
+}
+
+.nav-list>ul>li:hover .sub>li {
+    display: block;
+} */
+
+.nav-link {
+    flex: 1;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.nav-link a {
+    color: white;
+    padding: 10px 20px;
+    background: rgb(226, 56, 85);
+}
+
+.dropbtn {
+    background-color: rgb(226, 56, 85);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: rgb(235, 83, 109);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(226, 56, 85);
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: rgb(255, 244, 244);
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        margin: auto;
+    }
+    .nav-list {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .nav-list li {
+        float: none;
+        margin-right: 30px;
+    }
+    .nav-link {
+        line-height: 30px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .nav {
+        display: block;
+    }
+    .logo {
+        width: 100%;
+        margin: auto;
+        color: black;
+    }
+    .nav-list {
+        width: 100%;
+        margin: auto;
+        margin-left: 0;
+    }
+    .nav-list ul {
+        height: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .nav-list li {
+        float: none;
+        display: block;
+        margin: auto;
+        background: rgb(226, 56, 85);
+        color: white;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .nav-link {
+        width: 100%;
+    }
+}

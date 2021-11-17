@@ -1,0 +1,14 @@
+.sidebar {
+    width: 30%;
+    padding: 20px;
+    background: rgb(226, 56, 85);
+}
+
+.main {
+    list-style: none;
+}
+
+.main li {
+    border: 1px solid white;
+    padding: 20px;
+}
